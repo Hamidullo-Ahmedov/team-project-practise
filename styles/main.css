@@ -113,6 +113,9 @@ img {
   padding-top: 60px;
   padding-bottom: 255px;
   background-color: #014e56;
+  background-image: url("../images/hero-left-img-min.svg"), url("../images/hero-bottom-img-min.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 770px) calc(50% - 100px), calc(50% + 350px) calc(50% + 250px);
 }
 
 .hero-wrapper {
@@ -158,8 +161,6 @@ img {
   border-top: 4px solid #79c8c7;
 }
 
-.header-wrapper {
-  display: flex;
-}
+
 
 /* hero section ends */
