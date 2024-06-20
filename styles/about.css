@@ -296,3 +296,35 @@ img {
 }
 
 /* directors section ends */
+
+/* clients section starts */
+
+.clients {
+  padding-block: 140px;
+  background-color: #012f34;
+  background-image: url("../images/clients-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 670px) calc(50% - 122px);
+}
+
+.clients-title {
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+  color: #fff;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* clients section ends */
