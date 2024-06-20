@@ -156,3 +156,143 @@ img {
 }
 
 /* hero section ends */
+
+/* directors section starts */
+
+.directors {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #004047;
+}
+
+.directors-title {
+  margin-block: 0;  
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+  color: #fff;
+}
+
+.directors-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 76px;
+  margin-block: 0;
+  margin-top: 64px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.directors-name {
+  margin-block: 0;
+  margin-top: 16px;
+  color: #79c8c7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.directors-item {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 56px;
+  width: 350px;
+  text-align: center;
+  background-color: #012f34;
+}
+
+.directors-item::before {
+  display: inline-block;
+  content: "";
+  width: 96px;
+  height: 96px;
+  background-image: url("../images/nikita.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+
+.directors-item:nth-child(2)::before {
+  background-image: url("../images/duncan.png");
+}
+
+.directors-item:nth-child(3)::before {
+  background-image: url("../images/hamer.png");
+}
+
+.directors-item:nth-child(4)::before {
+  background-image: url("../images/drake.png");
+}
+
+.directors-item:nth-child(5)::before {
+  background-image: url("../images/wise.png");
+}
+
+.directors-item:nth-child(6)::before {
+  content: none;
+}
+
+
+
+.directors-item::after {
+  position: absolute;
+  right: 147px;
+  bottom: -28px;
+  display: inline-block;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-image: url("../images/plus.svg");
+}
+
+.directors-item:nth-child(6)::after {
+  background-image: url("../images/iks.svg");
+}
+
+.directors-status-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.directors-status {
+  margin-block: 0;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+  color: #fff;
+}
+
+.normal-status-wrapper {
+  width: 254px;
+  margin-inline: auto;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.normal-status {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; 
+}
+
+.directors-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* directors section ends */
