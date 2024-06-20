@@ -161,8 +161,11 @@ img {
 
 .directors {
   padding-top: 140px;
-  padding-bottom: 140px;
+  padding-bottom: 168px;
   background-color: #004047;
+  background-image: url("../images/delivering-bottom-bg-min.svg"), url("../images/delivering-left-bg-min.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 780px) calc(50% - 412px), calc(50% + 686px) calc(50% + 475px);
 }
 
 .directors-title {
